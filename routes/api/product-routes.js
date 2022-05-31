@@ -36,7 +36,6 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes:["id", "product_name", "price", "stock"],
     include: [
       {
         model: Category,
@@ -141,7 +140,7 @@ router.delete('/:id', (req, res) => {
       res.status(404).json({ message: "No product found with this id" });
       return;
     }
-    res.json(dbProduct);
+    res.status(200).json(dbProduct);
   })
   .catch(err => {
     console.log(err);
