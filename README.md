@@ -1,25 +1,18 @@
 # E-commerce-Back-End
-Building the back end for an e-commerce site
-
-
-### My walthrough video: (https://drive.google.com/file/d/1Sq8o8SCG1X7joCd_OS2dV-QCuu7mBMBT/view)   
-
 
 ### Project description
 This is a back end for an e-commerce site. From a provided working Express.js API and I configured it to use Sequelize to interact with a MySQL database.
 
 
 # Table of Contents
-  - [Description](#description)
+  - [Walkthrough](#Walkthrough)
   - [Usage](#usage)
   - [Technologies](#Technologies)
   - [Acceptance Criteria](#AcceptanceCriteria)
   - [Contributors](#contributors)
-  - [Future Development](#futuredevelopment)
 
 
-## Description
-This is a back end for an e-commerce site. From a provided working Express.js API and I configured it to use Sequelize to interact with a MySQL database.
+### My walthrough video: https://drive.google.com/file/d/1Sq8o8SCG1X7joCd_OS2dV-QCuu7mBMBT/view  
 
 
 ## Usage
@@ -51,4 +44,4 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ### Contributors
-- Hien Mai
+- Hien Mai @2022
